@@ -18,6 +18,7 @@ Amazon Macie to protect sensitive data stored on S3
 - Multi AZ to disaster recovery
 - ElastiCache and RDS Read Replicas do indeed help with scaling reads.
   — Read Replicas will help as your analytics application can now perform queries against it, and these queries won't impact the main production RDS database.
+  
 -RDS Multi-AZ== helps when a disaster happens at the AZ level.
 -Aurora Global Database helps in disaster recovery in multi region 
 -ALBs can route traffic to different Target Groups based on URL Path, Hostname, HTTP Headers, and Query Strings.
