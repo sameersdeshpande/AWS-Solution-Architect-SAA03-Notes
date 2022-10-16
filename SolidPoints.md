@@ -34,7 +34,7 @@ Solid points
 
 - ElastiCache and RDS Read Replicas do indeed help with scaling reads.
 
- — Read Replicas will help as your analytics application can now perform queries against it, and these queries won't impact the main production RDS database.
+— Read Replicas will help as your analytics application can now perform queries against it, and these queries won't impact the main production RDS database.
   
 -RDS Multi-AZ== helps when a disaster happens at the AZ level.
 
@@ -44,4 +44,4 @@ Solid points
 
 -Storage optimized instances are designed for workloads that require high, sequential read and write access to very large data sets on local storage.
 
-- Elasticcache cluster is used in real-time leader board catogarizing.
+- Elasticcache cluster using Redis is used in real-time leader board catogarizing.
